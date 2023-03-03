@@ -1,30 +1,31 @@
 # Instagram Project
+# FRAMEWORK AND LANGUAGE USED
+- SpringBoot and Java
 ## Controller
-- UserController
-- PostController
+- DoctorController
+- PatientController
 ## Model
-- UserModel
-- PostModel
+- DoctorModel
+- PatientModel
 ## Service
-- UserService
-- PostService
-## da0
-- IPostRepository
-- IRepository
+- DoctorService
+- PatuentService
 ## DataBase used
-- MYSQL database
+- MYSQL 
 ## Project Summary
-- Here In this project performing the CRUD operations to save the User information and Post Information
-  ### User
-- 1)PostMapping ->http://localhost:8080/user
-- 2)GetMapping -> http://localhost:8080/getuser
-- 3)GetMapping -> http://localhost:8080/getuserbyid/userid/2 (By ID)
-- 4)PutMapping -> http://localhost:8080/update/userid/3
-  ### Post
-- 1)PostMapping ->http://localhost:8080/post
-- 2)GetMapping -> http://localhost:8080/findallpost
-- 3)GetMapping -> http://localhost:8080/findpostbyid//4 (By ID)
-- 4)DeleteMapping -> http://localhost:8080/deletebyid/2
+- Here In this project performing the CRUD operations to save the Doctor information and Patient Information
+  ### Doctor
+- 1)PostMapping ->http://localhost:8080/Hospital/Doctor/addDoc
+- 2)GetMapping -> http://localhost:8080/Hospital/DoctorGetDoctor/Details
+- 3)GetMapping -> http://localhost:8080/Hospital/DoctorGetDoctor/Details/docId/{docId} (By ID)
+- 4)PutMapping -> http://localhost:8080/Hospital/DoctorUpdate/Doctor/docId/{docId}
+- 5)DeleteMapping -> http://localhost:8080/Hospital/DoctorDelete/Doctor/docId/{docId}
+  ### Patient
+- 1)PostMapping ->http://localhost:8080/Patient/Add/patient/Details
+- 2)GetMapping -> http://localhost:8080/Patient/getpatient
+- 3)GetMapping -> http://localhost:8080/Patient/getpatbyid/patId/{id}
+- 4)PutMapping -> (http://localhost:8080/Patient/update/patient/details/patId/{id})
+- 4)DeleteMapping -> http://localhost:8080/Patient/delete/patient/patId/{id}
 
 
 
